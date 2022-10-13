@@ -49,41 +49,79 @@
 // 3 -> Среда
 // 5 -> Пятница
 
-Console.Write("Введите день недели в формате числа ");
-int numA = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите день недели в формате числа ");
+// int numA = Convert.ToInt32(Console.ReadLine());
 
-if (numA > 0 && numA < 8)
-{
-    if (numA == 1)
-    {
-        Console.WriteLine("Понедельник");
-    }
-    if (numA == 2)
-    {
-        Console.WriteLine("Вторник");
-    }
-    if (numA == 3)
-    {
-        Console.WriteLine("Среда");
-    }
-    if (numA == 4)
-    {
-        Console.WriteLine("Четверг");
-    }
-    if (numA == 5)
-    {
-        Console.WriteLine("Пятница");
-    }
-    if (numA == 6)
-    {
-        Console.WriteLine("Суббота");
-    }
-    if (numA == 7)
-    {
-        Console.WriteLine("Воскресенье");
-    }
-}
-else
-{
-    Console.WriteLine("Некорректное значение");
-}
+// if (numA > 0 && numA < 8)
+// {
+//     if (numA == 1)
+//     {
+//         Console.WriteLine("Понедельник");
+//     }
+//     else if (numA == 2)
+//     {
+//         Console.WriteLine("Вторник");
+//     }
+//     else if (numA == 3)
+//     {
+//         Console.WriteLine("Среда");
+//     }
+//     else if (numA == 4)
+//     {
+//         Console.WriteLine("Четверг");
+//     }
+//     else if (numA == 5)
+//     {
+//         Console.WriteLine("Пятница");
+//     }
+//     else if (numA == 6)
+//     {
+//         Console.WriteLine("Суббота");
+//     }
+//     else Console.WriteLine("Воскресенье");
+// }
+// else
+// {
+//     Console.WriteLine("Некорректное значение");
+// }
+
+//**************************************************************************
+
+// 5. Напишите программу, которая на вход принимает
+// одно число (N), а на выходе показывает все целые
+// числа в промежутке от -N до N.
+// 4 -> "-4, -3, -2, -1, 0, 1, 2, 3, 4"
+// 2 -> " -2, -1, 0, 1, 2"
+
+// Console.Write("Введите число ");
+// int num5 = Convert.ToInt32(Console.ReadLine());
+
+// if (num5 <1)
+// {
+//     Console.WriteLine("Некорректное число");
+// }
+// else
+// {
+//     int count = -num5;
+//     while (count<= num5)
+//     {
+//         Console.Write($"{count}, ");
+//         count++;
+//     }
+// }
+
+
+//**************************************************************************
+
+// Напишите программу, которая принимает на вход
+// трёхзначное число и на выходе показывает последнюю цифру
+// этого числа.
+// 456 -> 6
+// 782 -> 2
+// 918 -> 8
+
+Console.Write("Введите трехзначное число ");
+int num6 = Convert.ToInt32(Console.ReadLine());
+
+Console.Write(num6 % 10);
+
