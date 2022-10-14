@@ -15,7 +15,7 @@ if (numA >= numB && numA >= numC)
 {
     Console.WriteLine($"Максимальное из трех чисел {numA}");
 }
-else if (numB >= numC && numB >= numC)
+else if (numB >= numC)
 {
     Console.WriteLine($"Максимальное из трех чисел {numB}");
 }
