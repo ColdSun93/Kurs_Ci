@@ -90,7 +90,7 @@ void Table(int n1)
         int count = 1;
         while (count <= n1)
         {
-            Console.WriteLine($"{count}  {Math.Pow(count, 2)}");
+            Console.WriteLine($"|{count,4}|  |{Math.Pow(count, 2),4}|");
             count++;
         }
     }
