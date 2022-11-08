@@ -108,11 +108,6 @@ int[] array = CompletionArr(size);
 //int[] array = new int [size];
 //CompletionArr(array);
 WriteArr(array);
-//0-7
-//array[5] = 456;
-// for (int i = 0; i < array.Length; i++)
-// {
-//     Array[i]=
-// }
+
 
 //***********************************************************************************
