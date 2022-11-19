@@ -6,8 +6,8 @@ double[] CoordinatesPoints(double k1, double k2, double b1, double b2)
     double[] array = new double[2];
     double argX = (b2 - b1) / (k1 - k2);
     double argY = k1 * argX + b1;
-    array[0] = argX;
-    array[1] = argY;
+    array[0] = Math.Round(argX,1);
+    array[1] = Math.Round(argY,1);
     return array;
 }
 
